@@ -26,6 +26,7 @@ if (isset($_GET['localidad'])) {
 
 <body>
     <form action="" method="get">
+        <label for="localidad">Localidad:</label>
     <select name="localidad">
         <option value="todas las localidades" <?php echo isset($_SESSION['localidad']) && $_SESSION['localidad'] == 'todas las localidades' ? 'selected' : ''; ?>>Todas las localidades</option>
         <option value="Gijón" <?php echo isset($_SESSION['localidad']) && $_SESSION['localidad'] == 'Gijón' ? 'selected' : ''; ?>>Gijón</option>
