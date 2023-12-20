@@ -56,7 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // $stmt->execute();
 
     if ($stmt->execute()) {
-        echo "Nueva taquilla añadida con éxito.";
+        echo "Nueva taquilla añadida con éxito.Redirigiendo a listado de taquillas...";
+        header("refresh:6;url=listado_taquillas.php");
     } else {
         echo "Error al añadir la taquilla.";
     }

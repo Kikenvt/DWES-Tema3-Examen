@@ -2,6 +2,7 @@
 require "connection.php";
 $conexion = conectarBD();
 
+session_name("Taquillator");
 session_start();
 
 if (isset($_GET['localidad'])) {
