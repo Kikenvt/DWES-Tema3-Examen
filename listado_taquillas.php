@@ -61,6 +61,7 @@ if($localidad !== "todas las localidades"){
 }
 
 if ($stmt->rowCount() > 0) {
+    echo "<h2>Listado de taquillas en ".$localidad."</h2>";
     echo "<table><tr><th>Localidad</th><th>Dirección</th><th>Capacidad</th><th>Ocupadas</th></tr>";
     /////////////////////////////////////
     // TODO 3: Imprimir filas de tabla //
