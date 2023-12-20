@@ -25,6 +25,7 @@
         <input type="number" id="ocupadas" name="ocupadas" min="0" required><br>
         
         <input type="submit" value="Añadir Taquilla">
+        <button type="button" onclick="location.href='listado_taquillas.php'">Cancelar</button>
     </form>
 </body>
 </html>

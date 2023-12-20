@@ -35,6 +35,7 @@ if (isset($_GET['localidad'])) {
         <input type="submit" value="Buscar">
     </form>
 
+    <a href="nueva_taquilla.php">Añadir nueva taquilla</a>
 </body>
 
 </html>
