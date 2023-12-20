@@ -1,3 +1,5 @@
+<!-- Autor: Enrique Fernandez-Campoamor Fernandez -->
+<!-- Github: https://github.com/Kikenvt/DWES-Tema3-Examen -->
 <?php
 require "connection.php";
 $conexion = conectarBD();

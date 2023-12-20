@@ -1,4 +1,18 @@
-# dwes_t3_examen
+# Examen DWES Tema 3
+
+**Autor**: Enrique Fernández - Campoamor Fernández
+
+**Github**: https://github.com/Kikenvt/DWES-Tema3-Examen
+
+ Crear   una   base   de   datos   llamada   dwes_t3_examen   con   una   tabla   llamada PuntosDeRecogida que constará de los campos:
+
+1. Id
+2. localidad
+3. direccion
+4. capacidad (int)
+5. ocupadas (int)
+
+Puebla  la  base  de  datos  con  la sentencia  SQL siguiente:
 
 ```sql
 INSERT INTO PuntosDeRecogida (localidad, direccion, capacidad, ocupadas) VALUES
@@ -18,4 +32,5 @@ INSERT INTO PuntosDeRecogida (localidad, direccion, capacidad, ocupadas) VALUES
 ('Oviedo', 'Calle Uría, Oviedo', 9, 6),
 ('Avilés', 'Calle de La Cámara, Avilés', 5, 5);
 ```
+
 
