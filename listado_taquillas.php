@@ -42,11 +42,6 @@ if (isset($_GET['localidad'])) {
 
 <?php
 
-if (isset($_SESSION['localidad'])) {
-    $localidad = $_SESSION['localidad'];
-} else {
-    $localidad = $_GET['localidad'];
-}
 
 ////////////////////////////////////////////
 // TODO 2: Obtener taquillas según filtro //
@@ -68,6 +63,7 @@ if ($stmt->rowCount() > 0) {
     /////////////////////////////////////
     // TODO 3: Imprimir filas de tabla //
     /////////////////////////////////////
+    
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
         echo "<tr><td>".$row["localidad"]."</td><td>".$row["direccion"]."</td><td>".$row["capacidad"]."</td><td>".$row["ocupadas"]."</td></tr>";
     }
